@@ -1,6 +1,8 @@
 ## Seja Bem Vindo(a)
 
-You can use the [editor on GitHub](https://github.com/softpowertecnologia/apipagamentos/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Documentação oficial da API de Pagamentos Avant Digital
+Dúvidas entrar em contato através do email ajuda@softpower.net.br
+Última atualização 23/10/2019
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
