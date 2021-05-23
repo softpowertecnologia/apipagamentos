@@ -1,6 +1,6 @@
 ## Seja Bem Vindo(a)
 
-Documentação oficial da API de Pagamentos Avant Digital
+Documentação oficial da API de Pagamentos Softpower Pagamentos
 
 Dúvidas entrar em contato através do email ajuda@softpower.net.br
 
