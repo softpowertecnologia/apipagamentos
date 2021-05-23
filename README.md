@@ -6,7 +6,7 @@ Dúvidas entrar em contato através do email ajuda@softpower.net.br
 
 Última atualização 23/10/2019
 
-### Pagador
+### Pagador | Insere um novo pagador no sistema
 
 Módulo de pagadores
 
@@ -102,6 +102,29 @@ Example Value | Model
   "dados": {},
   "mensagem": "string"
 }
+```
+
+### Pagador | Busca todos os pagadores no sistema
+
+Módulo de pagadores
+
+- Parameters
+
+```markdown
+Name	Description
+cpfcnpj
+string
+(query)	
+CPF / CNPJ a ser buscado (somente números)
+
+nome
+string
+(query)	
+Nome a ser buscado
+sobrenome
+string
+(query)	
+Sobrenome a ser buscado
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
