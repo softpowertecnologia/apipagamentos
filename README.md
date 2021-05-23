@@ -10,8 +10,7 @@ Dúvidas entrar em contato através do email ajuda@softpower.net.br
 
 Módulo de pagadores
 
-- Parameters
---É necessário enviar todos os campos para a API, mesmo que eles estejam em branco.
+- Parameters (É necessário enviar todos os campos para a API, mesmo que eles estejam em branco.)
 
 ```markdown
 {
@@ -26,6 +25,82 @@ Módulo de pagadores
   "bairro": "string",
   "cidade": "string",
   "estado": "string"
+}
+```
+
+- Responses
+
+Códigos
+
+- 201
+
+```markdown
+Pagador inserido com sucesso!
+```
+
+Example Value | Model
+
+```markdown
+{
+  "status": true,
+  "dados": [
+    {
+      "codigo": "string",
+      "cpf_cnpj": "string",
+      "nome": "string",
+      "sobrenome": "string",
+      "email": "string",
+      "cep": "string",
+      "endereco": "string",
+      "numero": "string",
+      "complemento": "string",
+      "bairro": "string",
+      "cidade": "string",
+      "estado": "string",
+      "status": 0,
+      "insercao": "string",
+      "alteracao": "string"
+    }
+  ],
+  "mensagem": "string"
+}
+```
+
+- 400
+
+```markdown
+Erro na requisição enviada. Verifique a mensagem de retorno
+```
+
+Example Value | Model
+
+```markdown
+{
+  "status": false,
+  "dados": {},
+  "mensagem": "string"
+}
+```
+
+- 401
+
+```markdown
+Sem autorização
+```
+
+- 500
+
+```markdown
+Erro desconhecido na API. Tente novamente mais tarde ou entre em contato com o suporte
+```
+
+Example Value | Model
+
+```markdown
+{
+  "status": false,
+  "dados": {},
+  "mensagem": "string"
 }
 ```
 
