@@ -10,13 +10,10 @@ Dúvidas entrar em contato através do email ajuda@softpower.net.br
 
 Módulo de pagadores
 
+- Parameters
+--É necessário enviar todos os campos para a API, mesmo que eles estejam em branco.
+
 ```markdown
-Syntax highlighted code block
-
-# Parameters
-
-É necessário enviar todos os campos para a API, mesmo que eles estejam em branco.
-
 {
   "cpf_cnpj": "string",
   "nome": "string",
@@ -30,19 +27,6 @@ Syntax highlighted code block
   "cidade": "string",
   "estado": "string"
 }
-
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
