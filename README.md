@@ -1,19 +1,36 @@
 ## Seja Bem Vindo(a)
 
 Documentação oficial da API de Pagamentos Avant Digital
+
 Dúvidas entrar em contato através do email ajuda@softpower.net.br
+
 Última atualização 23/10/2019
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Pagador
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Módulo de pagadores
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
+# Parameters
+
+É necessário enviar todos os campos para a API, mesmo que eles estejam em branco.
+
+{
+  "cpf_cnpj": "string",
+  "nome": "string",
+  "sobrenome": "string",
+  "email": "user@example.com",
+  "cep": "string",
+  "endereco": "string",
+  "numero": "string",
+  "complemento": "string",
+  "bairro": "string",
+  "cidade": "string",
+  "estado": "string"
+}
+
 ## Header 2
 ### Header 3
 
